@@ -89,7 +89,6 @@ img {
   }
 }
 
-/* Navigation */
 nav {
   position: sticky;
   top: 0;
@@ -102,14 +101,12 @@ nav {
   z-index: 10;
 }
 
-/* Sections */
 section {
   max-width: 1000px;
   margin: 0 auto;
   padding: 4rem 1.5rem;
 }
 
-/* Projects */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -182,4 +179,40 @@ section {
   padding: 0.6rem 1.2rem;
   border: 1px solid var(--accent);
   border-radius: var(--radius);
+}
+
+#skills h2 {
+  font-size: 1.75rem;
+}
+
+.skill-group h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-h);
+}
+
+.about-content {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  gap: 2rem;
+}
+
+.about-photo {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+#about h2 {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 700px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
 }
