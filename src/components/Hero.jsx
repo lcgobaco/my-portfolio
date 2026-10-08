@@ -6,14 +6,6 @@ export default function Hero() {
       <p className="tagline">
         Full-stack developer building web apps and ML pipelines.
       </p>
-      <a
-        className="github-link"
-        href="https://github.com/lcgobaco"
-        target="_blank"
-        rel="noreferrer"
-      >
-        View my GitHub
-      </a>
     </header>
   );
 }
