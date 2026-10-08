@@ -158,3 +158,28 @@ section {
   gap: 1rem;
   margin-top: auto;
 }
+
+#hero {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem 4rem;
+  text-align: left;
+}
+
+#hero .greeting {
+  color: var(--accent);
+  font-size: 1rem;
+}
+
+#hero .tagline {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+#hero .github-link {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+}
